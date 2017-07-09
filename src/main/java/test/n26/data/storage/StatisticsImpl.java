@@ -35,7 +35,7 @@ import test.n26.data.storage.infc.Statistics;
  * It's hard for me to figure the storage O. I'm using one record for each
  * transaction in two sets, and I'm scheduling it's expiration - all of this is
  * giving O(n) on storage. But I'm getting O(n) on storage with storing
- * transactions in memory anyway (and tha's cannot be reduced), so there is no
+ * transactions in memory anyway (and thats cannot be reduced), so there is no
  * increase in O.
  * 
  */
